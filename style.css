@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    max-width: none !important;
+}
+
+body {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #95A3A4;
+    color: #111111;
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+button {
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    color: #95A3A4;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#menu-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: transparent;
+}
+
+#menu-toggle svg {
+    fill: #ffffff;
+}
+
+nav {
+    display: none;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    text-decoration: none;
+    color: #111111;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h1, h2 {
+    width: 100%;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #111111;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    height: 50px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 16px;
+    color: #111111;
+}
+
+input::placeholder {
+    color: #333333;
+}
