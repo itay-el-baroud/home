@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  border-radius: 0;
+}
+
+body {
+  background-color: #95A3A4;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px 16px;
+  line-height: 1.8;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+}
+
+nav {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #ffffff;
+  color: #95A3A4;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-link svg {
+  width: 22px;
+  height: 22px;
+  stroke: #95A3A4;
+  fill: none;
+  flex-shrink: 0;
+}
+
+.nav-link.active {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.nav-link.active svg {
+  stroke: #222222;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 6px;
+}
+
+p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  padding: 0 8px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  color: #95A3A4;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
